@@ -1,0 +1,13 @@
+# Install matching CUDA builds of torch and torchvision.
+torch>=2.6
+torchvision>=0.21
+numpy>=1.24,<2
+Pillow>=9.1
+einops
+ftfy
+huggingface-hub
+iopath
+pycocotools
+regex
+scipy
+timm

@@ -1,0 +1,1880 @@
+{
+  "isaid": {
+    "class_names": [
+      "background",
+      "ship",
+      "storage tank",
+      "baseball diamond",
+      "tennis court",
+      "basketball court",
+      "ground track field",
+      "bridge",
+      "large vehicle",
+      "small vehicle",
+      "helicopter",
+      "swimming pool",
+      "roundabout",
+      "soccer ball field",
+      "plane",
+      "harbor"
+    ],
+    "background": 0,
+    "initial_queries": [
+      "background",
+      "ship",
+      "storage tank",
+      "baseball diamond",
+      "tennis court",
+      "basketball court",
+      "running track",
+      "bridge",
+      "large vehicle",
+      "small vehicle",
+      "helicopter",
+      "swimming pool",
+      "roundabout",
+      "soccer field",
+      "plane",
+      "harbor"
+    ],
+    "candidate_rows": [
+      [
+        "background",
+        "Land Cover",
+        "snow",
+        "sand",
+        "railway track",
+        "roof",
+        "cloud",
+        "parking lot",
+        "plaza",
+        "sidewalk",
+        "natural ground",
+        "driveway",
+        "unclaimed pavement",
+        "manhole cover",
+        "street light",
+        "utility pole",
+        "guardrail",
+        "haze"
+      ],
+      [
+        "ship",
+        "vessel",
+        "boat",
+        "cargo ship"
+      ],
+      [
+        "storage tank",
+        "oil tank",
+        "cylindrical storage tank",
+        "industrial storage tank"
+      ],
+      [
+        "baseball diamond",
+        "baseball field",
+        "baseball playing field"
+      ],
+      [
+        "tennis court",
+        "outdoor tennis court",
+        "tennis playing court"
+      ],
+      [
+        "basketball court",
+        "outdoor basketball court",
+        "basketball playing court"
+      ],
+      [
+        "running track",
+        "athletic track",
+        "athletics track",
+        "track and field ground"
+      ],
+      [
+        "bridge",
+        "road bridge",
+        "river bridge",
+        "overpass"
+      ],
+      [
+        "large vehicle",
+        "heavy vehicle",
+        "large truck",
+        "large bus"
+      ],
+      [
+        "small vehicle",
+        "small car",
+        "passenger car",
+        "small road vehicle"
+      ],
+      [
+        "helicopter",
+        "rotorcraft"
+      ],
+      [
+        "swimming pool",
+        "outdoor swimming pool",
+        "rectangular swimming pool"
+      ],
+      [
+        "roundabout",
+        "traffic circle",
+        "circular road junction"
+      ],
+      [
+        "soccer field",
+        "football field",
+        "soccer pitch",
+        "football pitch"
+      ],
+      [
+        "plane",
+        "airplane",
+        "aeroplane",
+        "fixed wing aircraft"
+      ],
+      [
+        "harbor",
+        "harbour",
+        "seaport",
+        "dockyard"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "background",
+            "Land Cover",
+            "snow",
+            "sand",
+            "railway track",
+            "roof",
+            "cloud",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "natural ground",
+            "driveway",
+            "unclaimed pavement",
+            "manhole cover",
+            "street light",
+            "utility pole",
+            "guardrail",
+            "haze"
+          ],
+          [
+            "ship",
+            "vessel",
+            "boat",
+            "cargo ship"
+          ],
+          [
+            "storage tank",
+            "oil tank",
+            "cylindrical storage tank",
+            "industrial storage tank"
+          ],
+          [
+            "baseball diamond"
+          ],
+          [
+            "tennis court",
+            "outdoor tennis court",
+            "tennis playing court"
+          ],
+          [
+            "basketball court",
+            "basketball playing court"
+          ],
+          [
+            "running track",
+            "athletic track"
+          ],
+          [
+            "bridge",
+            "road bridge",
+            "river bridge",
+            "overpass"
+          ],
+          [
+            "large vehicle",
+            "large truck",
+            "large bus"
+          ],
+          [
+            "small vehicle",
+            "small car",
+            "passenger car"
+          ],
+          [
+            "helicopter"
+          ],
+          [
+            "swimming pool",
+            "outdoor swimming pool",
+            "rectangular swimming pool"
+          ],
+          [
+            "roundabout"
+          ],
+          [
+            "soccer field",
+            "football field",
+            "soccer pitch",
+            "football pitch"
+          ],
+          [
+            "plane",
+            "airplane",
+            "aeroplane",
+            "fixed wing aircraft"
+          ],
+          [
+            "harbor",
+            "harbour"
+          ]
+        ],
+        "background_floor": 0.75,
+        "directions": [
+          {
+            "source": 2,
+            "target": 8,
+            "threshold": -1.7236690521240234
+          },
+          {
+            "source": 4,
+            "target": 5,
+            "threshold": -0.03260965645313263
+          },
+          {
+            "source": 9,
+            "target": 8,
+            "threshold": -0.19257652759552002
+          },
+          {
+            "source": 11,
+            "target": 4,
+            "threshold": -0.805357813835144
+          },
+          {
+            "source": 12,
+            "target": 13,
+            "threshold": -1.0240424871444702
+          },
+          {
+            "source": 15,
+            "target": 1,
+            "threshold": -3.411527633666992
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "background",
+            "Land Cover",
+            "snow",
+            "sand",
+            "railway track",
+            "roof",
+            "cloud",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "natural ground",
+            "driveway",
+            "unclaimed pavement",
+            "manhole cover",
+            "street light",
+            "utility pole",
+            "guardrail",
+            "haze"
+          ],
+          [
+            "ship",
+            "vessel",
+            "boat",
+            "cargo ship"
+          ],
+          [
+            "storage tank",
+            "oil tank",
+            "cylindrical storage tank",
+            "industrial storage tank"
+          ],
+          [
+            "baseball diamond"
+          ],
+          [
+            "tennis court",
+            "outdoor tennis court",
+            "tennis playing court"
+          ],
+          [
+            "basketball court",
+            "basketball playing court"
+          ],
+          [
+            "running track",
+            "athletic track",
+            "athletics track"
+          ],
+          [
+            "bridge",
+            "road bridge",
+            "overpass"
+          ],
+          [
+            "large vehicle",
+            "heavy vehicle",
+            "large truck",
+            "large bus"
+          ],
+          [
+            "small vehicle",
+            "small car",
+            "passenger car"
+          ],
+          [
+            "helicopter"
+          ],
+          [
+            "swimming pool",
+            "outdoor swimming pool",
+            "rectangular swimming pool"
+          ],
+          [
+            "roundabout"
+          ],
+          [
+            "soccer field",
+            "football field",
+            "soccer pitch",
+            "football pitch"
+          ],
+          [
+            "plane",
+            "airplane",
+            "aeroplane",
+            "fixed wing aircraft"
+          ],
+          [
+            "harbor",
+            "harbour",
+            "dockyard"
+          ]
+        ],
+        "background_floor": 0.75,
+        "directions": [
+          {
+            "source": 2,
+            "target": 8,
+            "threshold": -1.9208183288574219
+          },
+          {
+            "source": 12,
+            "target": 5,
+            "threshold": -1.0722825527191162
+          },
+          {
+            "source": 13,
+            "target": 4,
+            "threshold": -0.10929879546165466
+          },
+          {
+            "source": 15,
+            "target": 1,
+            "threshold": -3.5168161541223526
+          }
+        ]
+      }
+    }
+  },
+  "loveda": {
+    "class_names": [
+      "background",
+      "building",
+      "road",
+      "water",
+      "barren land",
+      "forest",
+      "agricultural land"
+    ],
+    "background": 0,
+    "initial_queries": [
+      "background",
+      "building",
+      "road",
+      "water",
+      "barren",
+      "forest",
+      "agricultural"
+    ],
+    "candidate_rows": [
+      [
+        "background",
+        "miscellaneous land",
+        "snow",
+        "sky",
+        "fog",
+        "construction debris"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ],
+      [
+        "road",
+        "street",
+        "asphalt road",
+        "paved road",
+        "roadway"
+      ],
+      [
+        "water",
+        "river",
+        "lake",
+        "pond",
+        "water body"
+      ],
+      [
+        "barren",
+        "bare soil",
+        "bare ground",
+        "exposed soil",
+        "soil",
+        "barren land",
+        "dirt ground"
+      ],
+      [
+        "forest",
+        "tree",
+        "woodland",
+        "dense forest",
+        "tree canopy",
+        "dense trees"
+      ],
+      [
+        "agricultural",
+        "farmland",
+        "crop field",
+        "cultivated field",
+        "agricultural land",
+        "planted field",
+        "cropland"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "background",
+            "miscellaneous land",
+            "snow",
+            "sky",
+            "fog",
+            "construction debris"
+          ],
+          [
+            "building",
+            "house",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "paved road",
+            "street",
+            "asphalt road"
+          ],
+          [
+            "water",
+            "water body"
+          ],
+          [
+            "barren",
+            "bare soil",
+            "dirt ground",
+            "soil"
+          ],
+          [
+            "forest",
+            "tree",
+            "dense forest",
+            "dense trees"
+          ],
+          [
+            "agricultural",
+            "cropland",
+            "farmland",
+            "cultivated field"
+          ]
+        ],
+        "background_floor": 0.6,
+        "directions": []
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "background",
+            "miscellaneous land",
+            "snow",
+            "sky",
+            "fog",
+            "construction debris"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "street",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "water",
+            "river",
+            "lake",
+            "pond",
+            "water body"
+          ],
+          [
+            "barren",
+            "bare soil",
+            "bare ground",
+            "exposed soil",
+            "soil",
+            "dirt ground"
+          ],
+          [
+            "forest",
+            "tree",
+            "woodland",
+            "dense forest",
+            "tree canopy",
+            "dense trees"
+          ],
+          [
+            "agricultural",
+            "farmland",
+            "crop field",
+            "cultivated field",
+            "agricultural land",
+            "planted field",
+            "cropland"
+          ]
+        ],
+        "background_floor": 0.6,
+        "directions": [
+          {
+            "source": 2,
+            "target": 4,
+            "threshold": -0.05427563190460205
+          },
+          {
+            "source": 6,
+            "target": 5,
+            "threshold": -1.0083149075508118
+          }
+        ]
+      }
+    }
+  },
+  "openearthmap": {
+    "class_names": [
+      "background",
+      "bareland",
+      "rangeland",
+      "developed space",
+      "road",
+      "tree",
+      "water",
+      "agriculture land",
+      "building"
+    ],
+    "background": 0,
+    "initial_queries": [
+      "background",
+      "bareland",
+      "grass",
+      "pavement",
+      "road",
+      "tree",
+      "water",
+      "cropland",
+      "building"
+    ],
+    "candidate_rows": [
+      [
+        "background",
+        "snow",
+        "bridge",
+        "cloud",
+        "smoke",
+        "cloud shadow",
+        "mist band"
+      ],
+      [
+        "bareland",
+        "bare soil",
+        "bare ground",
+        "exposed soil",
+        "soil",
+        "barren land"
+      ],
+      [
+        "grass",
+        "grassland",
+        "green field",
+        "grassy ground",
+        "lawn"
+      ],
+      [
+        "pavement",
+        "paved area",
+        "concrete ground",
+        "paved ground",
+        "concrete surface"
+      ],
+      [
+        "road",
+        "street",
+        "asphalt road",
+        "paved road",
+        "roadway"
+      ],
+      [
+        "tree",
+        "tree canopy",
+        "individual tree",
+        "woody vegetation",
+        "forest",
+        "woodland",
+        "tall tree"
+      ],
+      [
+        "water",
+        "river",
+        "lake",
+        "pond",
+        "water body"
+      ],
+      [
+        "cropland",
+        "farmland",
+        "crop field",
+        "cultivated field",
+        "agricultural land",
+        "planted field"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "background",
+            "snow",
+            "bridge",
+            "cloud",
+            "smoke",
+            "cloud shadow",
+            "mist band"
+          ],
+          [
+            "bareland"
+          ],
+          [
+            "grass",
+            "green field",
+            "grassy ground",
+            "lawn"
+          ],
+          [
+            "pavement",
+            "paved area",
+            "concrete ground",
+            "paved ground",
+            "concrete surface"
+          ],
+          [
+            "road",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "tree",
+            "tree canopy",
+            "individual tree",
+            "forest"
+          ],
+          [
+            "water",
+            "river",
+            "lake",
+            "water body"
+          ],
+          [
+            "cropland",
+            "farmland",
+            "crop field",
+            "cultivated field",
+            "agricultural land"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ]
+        ],
+        "background_floor": 0.02,
+        "directions": [
+          {
+            "source": 2,
+            "target": 7,
+            "threshold": -0.29197394847869873
+          },
+          {
+            "source": 3,
+            "target": 4,
+            "threshold": -1.1584402322769165
+          },
+          {
+            "source": 8,
+            "target": 3,
+            "threshold": -0.2640935182571411
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "background",
+            "snow",
+            "bridge",
+            "cloud",
+            "smoke",
+            "cloud shadow",
+            "mist band"
+          ],
+          [
+            "bareland"
+          ],
+          [
+            "grass",
+            "green field",
+            "grassy ground",
+            "lawn"
+          ],
+          [
+            "pavement",
+            "paved area",
+            "concrete ground",
+            "paved ground",
+            "concrete surface"
+          ],
+          [
+            "road",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "tree",
+            "tree canopy",
+            "individual tree",
+            "forest",
+            "tall tree"
+          ],
+          [
+            "water",
+            "river",
+            "lake",
+            "water body"
+          ],
+          [
+            "cropland",
+            "farmland",
+            "crop field",
+            "cultivated field",
+            "agricultural land"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ]
+        ],
+        "background_floor": 0.02,
+        "directions": [
+          {
+            "source": 1,
+            "target": 2,
+            "threshold": -0.022419452667236328
+          },
+          {
+            "source": 2,
+            "target": 7,
+            "threshold": -0.25930196046829224
+          },
+          {
+            "source": 3,
+            "target": 4,
+            "threshold": -1.1117976307868958
+          },
+          {
+            "source": 8,
+            "target": 3,
+            "threshold": -0.21757447719573975
+          }
+        ]
+      }
+    }
+  },
+  "potsdam": {
+    "class_names": [
+      "impervious surface",
+      "building",
+      "low vegetation",
+      "tree",
+      "car",
+      "clutter"
+    ],
+    "background": 5,
+    "initial_queries": [
+      "road",
+      "building",
+      "grass",
+      "tree",
+      "car",
+      "clutter"
+    ],
+    "candidate_rows": [
+      [
+        "road",
+        "path",
+        "sidewalk",
+        "paved surface",
+        "pavement"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ],
+      [
+        "grass",
+        "low vegetation",
+        "lawn",
+        "ground grass",
+        "short grass",
+        "low plants",
+        "ground cover"
+      ],
+      [
+        "tree",
+        "tree canopy",
+        "individual tree",
+        "woody vegetation",
+        "forest",
+        "woodland",
+        "tall tree"
+      ],
+      [
+        "car",
+        "vehicle",
+        "automobile",
+        "parked car",
+        "moving car"
+      ],
+      [
+        "clutter",
+        "scattered",
+        "sand",
+        "snow",
+        "sky",
+        "sports court",
+        "river bank",
+        "swimming pool",
+        "shipping container"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "road",
+            "pavement"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "grass",
+            "lawn",
+            "ground grass",
+            "short grass",
+            "ground cover"
+          ],
+          [
+            "tree",
+            "individual tree",
+            "tall tree"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "clutter",
+            "scattered",
+            "sand",
+            "snow",
+            "sky",
+            "sports court",
+            "river bank",
+            "swimming pool",
+            "shipping container"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 0,
+            "target": 1,
+            "threshold": -0.33045494556427
+          },
+          {
+            "source": 2,
+            "target": 3,
+            "threshold": -1.601186752319336
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "road",
+            "pavement"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "grass",
+            "lawn",
+            "ground grass",
+            "short grass",
+            "ground cover"
+          ],
+          [
+            "tree",
+            "individual tree",
+            "woody vegetation",
+            "tall tree"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "clutter",
+            "scattered",
+            "sand",
+            "snow",
+            "sky",
+            "sports court",
+            "river bank",
+            "swimming pool",
+            "shipping container"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 2,
+            "target": 3,
+            "threshold": -0.9573658108711243
+          }
+        ]
+      }
+    }
+  },
+  "uavid": {
+    "class_names": [
+      "background clutter",
+      "building",
+      "road",
+      "car",
+      "tree",
+      "low vegetation",
+      "human"
+    ],
+    "background": 0,
+    "initial_queries": [
+      "background",
+      "building",
+      "road",
+      "car",
+      "tree",
+      "vegetation",
+      "human"
+    ],
+    "candidate_rows": [
+      [
+        "background",
+        "other",
+        "cluttered ground",
+        "sand",
+        "sky",
+        "parking lot",
+        "plaza",
+        "sidewalk",
+        "sports court",
+        "bare soil",
+        "river",
+        "lake",
+        "driveway",
+        "loading bay",
+        "bus stop",
+        "utility pole",
+        "streetlight",
+        "lamp post",
+        "fence",
+        "mailbox",
+        "cloud",
+        "fog",
+        "smoke"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ],
+      [
+        "road",
+        "street",
+        "asphalt road",
+        "paved road",
+        "roadway"
+      ],
+      [
+        "car",
+        "vehicle",
+        "automobile",
+        "parked car",
+        "moving car"
+      ],
+      [
+        "tree",
+        "tree canopy",
+        "individual tree",
+        "woody vegetation",
+        "forest",
+        "woodland",
+        "tall tree"
+      ],
+      [
+        "vegetation",
+        "grass",
+        "low vegetation",
+        "lawn",
+        "short grass",
+        "low plants",
+        "ground cover"
+      ],
+      [
+        "human",
+        "person",
+        "pedestrian",
+        "people"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "background",
+            "other",
+            "cluttered ground",
+            "sand",
+            "sky",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "sports court",
+            "bare soil",
+            "river",
+            "lake",
+            "driveway",
+            "loading bay",
+            "bus stop",
+            "utility pole",
+            "streetlight",
+            "lamp post",
+            "fence",
+            "mailbox",
+            "cloud",
+            "fog",
+            "smoke"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "street",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "tree",
+            "individual tree",
+            "tall tree"
+          ],
+          [
+            "grass",
+            "lawn",
+            "short grass",
+            "low plants",
+            "ground cover"
+          ],
+          [
+            "human",
+            "person",
+            "pedestrian",
+            "people"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 1,
+            "target": 4,
+            "threshold": -0.48624086380004883
+          },
+          {
+            "source": 2,
+            "target": 5,
+            "threshold": -0.9622479677200317
+          },
+          {
+            "source": 5,
+            "target": 4,
+            "threshold": -1.0041457414627075
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "background",
+            "other",
+            "cluttered ground",
+            "sand",
+            "sky",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "sports court",
+            "bare soil",
+            "river",
+            "lake",
+            "driveway",
+            "loading bay",
+            "bus stop",
+            "utility pole",
+            "streetlight",
+            "lamp post",
+            "fence",
+            "mailbox",
+            "cloud",
+            "fog",
+            "smoke"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "street",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "tree",
+            "tree canopy",
+            "individual tree",
+            "tall tree"
+          ],
+          [
+            "grass",
+            "lawn",
+            "short grass",
+            "ground cover"
+          ],
+          [
+            "human",
+            "person",
+            "pedestrian",
+            "people"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 2,
+            "target": 4,
+            "threshold": -0.9307088851928711
+          },
+          {
+            "source": 4,
+            "target": 5,
+            "threshold": -0.8489552736282349
+          }
+        ]
+      }
+    }
+  },
+  "udd5": {
+    "class_names": [
+      "vegetation",
+      "building",
+      "road",
+      "vehicle",
+      "other"
+    ],
+    "background": 4,
+    "initial_queries": [
+      "vegetation",
+      "building",
+      "road",
+      "vehicle",
+      "background"
+    ],
+    "candidate_rows": [
+      [
+        "vegetation",
+        "tree",
+        "grass",
+        "shrubs",
+        "aquatic vegetation",
+        "lotus leaves"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ],
+      [
+        "road",
+        "street",
+        "asphalt road",
+        "paved road",
+        "roadway"
+      ],
+      [
+        "vehicle",
+        "car",
+        "automobile",
+        "truck",
+        "bus"
+      ],
+      [
+        "background",
+        "sky",
+        "sports field",
+        "sand",
+        "sidewalk",
+        "parking lot",
+        "plaza",
+        "sports court",
+        "river bank",
+        "open water",
+        "parking bay",
+        "road shoulder",
+        "fence"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "vegetation",
+            "tree",
+            "grass",
+            "shrubs"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "street",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "vehicle",
+            "car",
+            "automobile"
+          ],
+          [
+            "background",
+            "sky",
+            "sports field",
+            "sand",
+            "sidewalk",
+            "parking lot",
+            "plaza",
+            "sports court",
+            "river bank",
+            "open water",
+            "parking bay",
+            "road shoulder",
+            "fence"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 2,
+            "target": 1,
+            "threshold": -0.6843839883804321
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "vegetation",
+            "tree",
+            "grass",
+            "shrubs"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "road",
+            "street",
+            "asphalt road",
+            "paved road",
+            "roadway"
+          ],
+          [
+            "vehicle",
+            "car",
+            "automobile"
+          ],
+          [
+            "background",
+            "sky",
+            "sports field",
+            "sand",
+            "sidewalk",
+            "parking lot",
+            "plaza",
+            "sports court",
+            "river bank",
+            "open water",
+            "parking bay",
+            "road shoulder",
+            "fence"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 2,
+            "target": 0,
+            "threshold": -1.1472023725509644
+          }
+        ]
+      }
+    }
+  },
+  "vaihingen": {
+    "class_names": [
+      "impervious surface",
+      "building",
+      "low vegetation",
+      "tree",
+      "car",
+      "clutter"
+    ],
+    "background": 5,
+    "initial_queries": [
+      "road",
+      "building",
+      "grass",
+      "tree",
+      "car",
+      "clutter"
+    ],
+    "candidate_rows": [
+      [
+        "road",
+        "path",
+        "sidewalk",
+        "paved surface",
+        "pavement"
+      ],
+      [
+        "building",
+        "house",
+        "roof",
+        "rooftop",
+        "building rooftop"
+      ],
+      [
+        "grass",
+        "low vegetation",
+        "lawn",
+        "ground grass",
+        "short grass",
+        "low plants",
+        "ground cover"
+      ],
+      [
+        "tree",
+        "tree canopy",
+        "individual tree",
+        "woody vegetation",
+        "forest",
+        "woodland",
+        "tall tree"
+      ],
+      [
+        "car",
+        "vehicle",
+        "automobile",
+        "parked car",
+        "moving car"
+      ],
+      [
+        "clutter",
+        "sand",
+        "snow",
+        "sky",
+        "sports court",
+        "river bank",
+        "swimming pool",
+        "shipping container"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "road",
+            "paved surface",
+            "pavement"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "grass",
+            "lawn",
+            "ground grass",
+            "short grass",
+            "ground cover"
+          ],
+          [
+            "tree",
+            "individual tree",
+            "tall tree"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "clutter",
+            "sand",
+            "snow",
+            "sky",
+            "sports court",
+            "river bank",
+            "swimming pool",
+            "shipping container"
+          ]
+        ],
+        "background_floor": 0.02,
+        "directions": [
+          {
+            "source": 0,
+            "target": 2,
+            "threshold": -0.1774042844772339
+          },
+          {
+            "source": 1,
+            "target": 2,
+            "threshold": -0.013730168342590332
+          },
+          {
+            "source": 2,
+            "target": 3,
+            "threshold": -1.1333651840686798
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "road",
+            "paved surface",
+            "pavement"
+          ],
+          [
+            "building",
+            "house",
+            "roof",
+            "rooftop",
+            "building rooftop"
+          ],
+          [
+            "grass",
+            "lawn",
+            "ground grass",
+            "short grass",
+            "ground cover"
+          ],
+          [
+            "tree",
+            "individual tree",
+            "tall tree"
+          ],
+          [
+            "car",
+            "vehicle",
+            "automobile",
+            "parked car",
+            "moving car"
+          ],
+          [
+            "clutter",
+            "sand",
+            "snow",
+            "sky",
+            "sports court",
+            "river bank",
+            "swimming pool",
+            "shipping container"
+          ]
+        ],
+        "background_floor": 0.02,
+        "directions": [
+          {
+            "source": 0,
+            "target": 2,
+            "threshold": -0.09403586387634277
+          },
+          {
+            "source": 1,
+            "target": 2,
+            "threshold": -0.08732032775878906
+          },
+          {
+            "source": 2,
+            "target": 3,
+            "threshold": -1.2810384631156921
+          }
+        ]
+      }
+    }
+  },
+  "vdd": {
+    "class_names": [
+      "other",
+      "wall",
+      "road",
+      "vegetation",
+      "vehicle",
+      "roof",
+      "water"
+    ],
+    "background": 0,
+    "initial_queries": [
+      "background",
+      "facade",
+      "road",
+      "vegetation",
+      "vehicle",
+      "roof",
+      "water"
+    ],
+    "candidate_rows": [
+      [
+        "background",
+        "other",
+        "sand",
+        "footpath",
+        "sky",
+        "parking lot",
+        "plaza",
+        "sidewalk",
+        "sports court",
+        "dirt path"
+      ],
+      [
+        "facade",
+        "wall",
+        "exterior wall",
+        "building facade",
+        "vertical building wall",
+        "exterior walls"
+      ],
+      [
+        "road",
+        "street",
+        "asphalt road",
+        "paved road",
+        "roadway"
+      ],
+      [
+        "vegetation",
+        "tree",
+        "grass",
+        "shrubs",
+        "plant cover"
+      ],
+      [
+        "vehicle",
+        "car",
+        "automobile",
+        "truck",
+        "bus"
+      ],
+      [
+        "roof",
+        "rooftop",
+        "building rooftop",
+        "roof surface",
+        "flat roof",
+        "sloped roof"
+      ],
+      [
+        "water",
+        "river",
+        "lake",
+        "pond",
+        "water body"
+      ]
+    ],
+    "profiles": {
+      "main": {
+        "selected_rows": [
+          [
+            "background",
+            "other",
+            "sand",
+            "footpath",
+            "sky",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "sports court",
+            "dirt path"
+          ],
+          [
+            "facade",
+            "wall",
+            "exterior wall",
+            "building facade",
+            "vertical building wall",
+            "exterior walls"
+          ],
+          [
+            "road"
+          ],
+          [
+            "vegetation",
+            "tree",
+            "shrubs"
+          ],
+          [
+            "vehicle",
+            "car",
+            "automobile"
+          ],
+          [
+            "roof",
+            "rooftop",
+            "building rooftop",
+            "roof surface",
+            "flat roof"
+          ],
+          [
+            "water",
+            "river",
+            "lake",
+            "pond",
+            "water body"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 1,
+            "target": 5,
+            "threshold": -0.8181775063276291
+          },
+          {
+            "source": 2,
+            "target": 3,
+            "threshold": -0.2585303783416748
+          }
+        ]
+      },
+      "separate": {
+        "selected_rows": [
+          [
+            "background",
+            "other",
+            "sand",
+            "footpath",
+            "sky",
+            "parking lot",
+            "plaza",
+            "sidewalk",
+            "sports court",
+            "dirt path"
+          ],
+          [
+            "facade",
+            "wall",
+            "exterior wall",
+            "building facade",
+            "vertical building wall",
+            "exterior walls"
+          ],
+          [
+            "road"
+          ],
+          [
+            "vegetation",
+            "tree",
+            "grass",
+            "shrubs"
+          ],
+          [
+            "vehicle",
+            "car",
+            "automobile"
+          ],
+          [
+            "roof",
+            "rooftop",
+            "building rooftop",
+            "roof surface",
+            "flat roof"
+          ],
+          [
+            "water",
+            "river",
+            "lake",
+            "pond",
+            "water body"
+          ]
+        ],
+        "background_floor": 0.2,
+        "directions": [
+          {
+            "source": 1,
+            "target": 5,
+            "threshold": -0.9341214597225189
+          },
+          {
+            "source": 3,
+            "target": 2,
+            "threshold": -0.13269639015197754
+          }
+        ]
+      }
+    }
+  }
+}
